@@ -20,8 +20,10 @@ This means that the patient is both given the right to block certain information
 
 The right to oppose the processing of health information means that the patient and user both in the specific situation may oppose that health personnel are given access, and that the person in question has the right in advance to block all or parts of the record for access for certain health personnel, for groups by personnel or for all. The block will apply until the patient or user notifies that it will cease.
 
-Below is a listing of relevatn use cases for the "***Blocking of journal information***":
+Below is a listing of relevant use cases for the "***Blocking of journal information***":
 
-- As a healthcare consumer ("***grantor***"), I need to restrict access to information for certain health personnel or companies ("***grantee***") if I so wish, so that health personnel or companies that I do not want access to are excluded.
+- As a healthcare consumer ("***grantor***"), I need to restrict access to information for certain health personnel, groups of health personell or companies ("***grantor***") if I so wish, so that health personnel, groups or companies that I do not want access to are excluded.
 
 - As a healthcare consumer ("***grantor***"), I need to restrict access to certain information elements in my journal, so that information that I want to hide is hidden.
+
+- As a healthcare consumer ("***grantor***"), I can allow access to information for certain health personell, groups of health personell or companies ("***grantor***") that has previously been blocked if I so wish in situation that this information is necessary for proper health care.
