@@ -3,8 +3,8 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: fhir.consent
-canonical: http://example.org
+id: hso.fhir.no.consent
+canonical: http://hso.no/fhir
 name: ConsentManagement
 title: Consent management to withhold or withdraw consent for disclosure
 # description: Example Implementation Guide for getting started with SUSHI
@@ -15,11 +15,8 @@ copyrightYear: 2022+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
-publisher:
-  name: Example Publisher
-  url: http://example.org/example-publisher
-  # email: test@example.org
-
+dependencies:
+    hl7.fhir.no.basis: 2.1.1
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
